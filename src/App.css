@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+.dark-theme{
+  background-color: rgb(29, 29, 29);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.border {
+  border-style: solid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.margin {
+  margin-left: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-button{
+  border-radius: 10rem;
+  margin-right: 55px;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar{
+  position: flex;
+  border-radius: 20rem;
+  
+  background-color: whitesmoke;
+}
+input{
+  border-radius: 20rem;
+ width: 250px;
+ height: 50px;
+  border-style: hidden;
+  background-color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus {
+  outline: none !important;
+  
+  box-shadow: 0 0 10px #719ECE;
 }
+
+.tweets{
+  margin-left: 100px;
+}
+
+.trends{
+  border-radius: 1rem;
+  background-color: whitesmoke;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+
+
+.name{
+  position: flex;
+  padding-right: 920px;
+  background-color: white
+}
+
+.search-input{
+  border-radius: 50rem;
+ 
+}
+
+
+
+.wallpaper{
+  border-style: solid;
+  border-radius: 1rem;
+  padding-bottom: 250px;
+  
+}
+
+
+.profile-stack{
+  background-color: whitesmoke;
+  padding-bottom: 200px;
+  border-radius: 1rem;
+}
+
+.profile-projects{
+  background-color: whitesmoke;
+  padding-bottom: 300px;
+  border-radius: 1rem;
+}
+
+.profile-handles{
+  display: inline;
+  
+  margin-right: 100px;
+}
+.profile-tech-stack{
+  display: inline;
+  margin-right: 100px;
+  
+}
+.profile-links{
+  margin-left: 40px;
+}
+
+.arrange-horizontally {
+  display: inline;
+  margin-right: 100px;
+  
+  
+}
+
+
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple:hover {
+  background: rgb(193, 213, 241) radial-gradient(circle, transparent 1%, rgb(193, 213, 241) 1%) center/15000%;
+}
+.ripple:active {
+  background-color: white;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+
+
+
+
